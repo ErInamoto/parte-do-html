@@ -1,0 +1,30 @@
+header .material-symbols-outlined {
+    font-size: 36px;
+    background-color: red;
+}
+
+header h1{
+    font-size: 300%;
+        
+}
+.radio{
+    display: inline-flex;
+}
+
+radio .radio{
+    margin-left: 50px;
+}
+
+.logo{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.nomeDoTCC{
+    font-size: 25px;
+    margin-left: -20px;
+}
+
+.caixa{
+    width: 80%;
+}
