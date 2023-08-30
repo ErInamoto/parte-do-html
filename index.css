@@ -11,13 +11,10 @@ header h1{
     display: inline-flex;
 }
 
-radio .radio{
-    margin-left: 50px;
-}
-
 .logo{
-    width: 200px;
+    width: 320px;
     margin-right: 20px;
+    text-align: center;
 }
 
 .nomeDoTCC{
@@ -27,4 +24,23 @@ radio .radio{
 
 .caixa{
     width: 80%;
+}
+
+.lbl-radio input {
+    display: none;
+
+    
+}
+
+.lbl-radio input:checked + .material-symbols-outlined {
+    color: blue;
+   
+    
+}
+.meu-input {
+    padding: 10px; /* Espaçamento interno */
+    padding-right: 40px; /* Espaçamento interno à direita */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
 }
